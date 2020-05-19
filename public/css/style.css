@@ -1,20 +1,50 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#personalname{
+	font-weight: 700;
+	color: #068488;
+	font-size: 50px;
+}	
+
+#mainlogo{
+	height:90px;
+	width:auto;
+	margin: 0px;
+	padding: 0px;
+}
+
 #div1img{
 	width:600px;
 	height: 400px;
-	/*margin-top: 60px;*/
+}
+#summarylogo{
+	width: 45px;
+	height: 45px;
+	color: #068488;
 }
 
-#professionalsummary{
-	text-align: left
+#professionalsummary, .education{
+	color: #808fa6;
+	font-weight: 600;	
+	font-size: 19px;
+	line-height: normal;
 }
 
 #navigation{
 	background: transparent;
 }
 
+#ulfont{
+	font-weight: 500;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
 .hovering{
 	color: #068488;
-
 }
 
 .hovering:hover{
@@ -35,3 +65,24 @@
 	color: #FFFFFF;
 	background: #068488;
 }
+
+#displaypicture{
+	border-radius: 50%;
+}
+
+.fa-cog {
+	color: #068488;
+}
+
+.foot{
+	color: #068488;
+	font-weight: 500;
+}
+
+#qualification1,#qualification2,#summary,#skills,#experience{
+	color: #3d4b61;
+	font-size: 40px;
+}
+
+
+	
