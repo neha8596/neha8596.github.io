@@ -10,6 +10,9 @@
 
 //         });
 //     });
+$(document).ready(function() {
+	setDefaultActive();
+});
 
 var setDefaultActive = function() {
     var path = window.location.pathname;
@@ -19,6 +22,3 @@ var setDefaultActive = function() {
     element.parent("li").addClass("highlight");
 }
 
-$(document).ready(function() {
-	setDefaultActive();
-});

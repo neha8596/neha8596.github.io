@@ -2,6 +2,12 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+#skillset{
+	font-weight: 600;
+	color: #068488;
+	font-size: 50px;
+}
+
 #personalname{
 	font-weight: 700;
 	color: #068488;
@@ -50,9 +56,14 @@ body{
 	font-weight: 900;
 }
 
-#collegesite,.hovering:hover{
+.buttonstyle:hover{
+	color: #B8E778;
+}
+
+.buttonstyle,.hovering:hover{
 	color: #FFFFFF;
 	background: #068488;
+	font-weight: bold;
 }
 
 #collegelogo{
@@ -64,11 +75,6 @@ body{
 	border-radius: 50%;
 }
 
-#certificate{
-	color: #FFFFFF;
-	background: #068488;
-	width: 25%;
-}
 
 #displaypicture{
 	border-radius: 50%;
@@ -93,9 +99,19 @@ body{
 	padding: 15px;
 }
 
+#maven,#nexus{
+	height: 130px;
+	width: 130px;
+	margin-top: 10px;
+}
+
+#elk{
+	height: 130px;
+	width: 130px;
+	margin-top: 10px;
+}
 
 
 
 
 
-	
