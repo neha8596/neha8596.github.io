@@ -25,11 +25,10 @@ body{
 	color: #068488;
 }
 
-#professionalsummary, .education{
+#professionalsummary, .description{
 	color: #808fa6;
 	font-weight: 600;	
 	font-size: 19px;
-	line-height: normal;
 }
 
 #navigation{
@@ -47,7 +46,11 @@ body{
 	color: #068488;
 }
 
-.hovering:hover{
+.highlight >a{
+	font-weight: 900;
+}
+
+#collegesite,.hovering:hover{
 	color: #FFFFFF;
 	background: #068488;
 }
@@ -61,16 +64,17 @@ body{
 	border-radius: 50%;
 }
 
-#collegesite{
+#certificate{
 	color: #FFFFFF;
 	background: #068488;
+	width: 25%;
 }
 
 #displaypicture{
 	border-radius: 50%;
 }
 
-.fa-cog {
+.fa{
 	color: #068488;
 }
 
@@ -83,6 +87,15 @@ body{
 	color: #3d4b61;
 	font-size: 40px;
 }
+
+.border{
+	color: #068488;
+	padding: 15px;
+}
+
+
+
+
 
 
 	
