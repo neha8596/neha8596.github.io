@@ -13,9 +13,9 @@ app.get("/education",function(req,res){
 	res.render("education");
 });
 
-app.get("/projects",function(req,res){
-	res.render("projects");
-});
+// app.get("/projects",function(req,res){
+// 	res.render("projects");
+// });
 
 app.get("/experience",function(req,res){
 	res.render("experience");
